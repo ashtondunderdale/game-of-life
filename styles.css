@@ -8,6 +8,20 @@ body {
     left: 0px;
     height: 80px;
     border-bottom: 1px rgb(40, 42, 56) solid;
+    color: rgb(191, 190, 190);
+}
+
+.topOptionDiv .text{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.topOptionDiv .subText{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 13px;
+    font-size: 12px;
 }
 
 .sideDiv{
@@ -23,6 +37,7 @@ body {
 }
 
 .titleDiv{
+    user-select: none;
     padding: 10px;
     padding-top: 20px;
     text-indent: 10px;
@@ -32,25 +47,59 @@ body {
 }
 
 .optionDiv {
+    margin-top: 10px;
     padding: 10px;
+    width: 180px;
+    margin-left: 10px;
     text-indent: 40px;
-
     text-align: left;
-
+    user-select: none;
     font-size: 14px;
     color: rgb(191, 190, 190);
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
+
+.optionDiv:hover {
+    background-color: rgba(255, 255, 255, 0.155);
+    color: white; 
+}
+
 
 
 /* -------- ICONS --------*/
 
 .optionDiv .icon {
     margin-right: 10px; 
-    margin-left: -68px;
+    margin-left: -78px;
     width: 55px;
 }
 
 .optionDiv .text {
     font-size: 14px;
     color: rgb(191, 190, 190);
+}
+
+.mainDiv{
+    margin-left: 300px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    color: white;
+}
+
+.mainDiv h1{
+
+}
+
+.someOtherDiv{
+    margin-left: 300px;
+    padding: 10px;
+    margin-top: 80px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(23, 23, 31);
+    border: 2px solid rgb(46, 44, 74);
+    color: white;
 }
