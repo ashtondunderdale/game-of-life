@@ -3,7 +3,7 @@ body {
     background-color: rgb(29, 32, 46);
 }
 
-.test{
+.topOptionDiv{
     top: 0px;
     left: 0px;
     height: 80px;
@@ -37,6 +37,20 @@ body {
 
     text-align: left;
 
+    font-size: 14px;
+    color: rgb(191, 190, 190);
+}
+
+
+/* -------- ICONS --------*/
+
+.optionDiv .icon {
+    margin-right: 10px; 
+    margin-left: -68px;
+    width: 55px;
+}
+
+.optionDiv .text {
     font-size: 14px;
     color: rgb(191, 190, 190);
 }
