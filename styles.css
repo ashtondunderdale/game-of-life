@@ -1,0 +1,42 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(29, 32, 46);
+}
+
+.test{
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    border-bottom: 1px rgb(40, 42, 56) solid;
+}
+
+.sideDiv{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 220px;
+    height: 100vb;
+
+    background-color: rgb(23, 23, 31);
+    border-right: 2px solid rgb(46, 44, 74);
+}
+
+.titleDiv{
+    padding: 10px;
+    padding-top: 20px;
+    text-indent: 10px;
+
+    font-size: 13px;
+    color: rgb(191, 190, 190);
+}
+
+.optionDiv {
+    padding: 10px;
+    text-indent: 40px;
+
+    text-align: left;
+
+    font-size: 14px;
+    color: rgb(191, 190, 190);
+}
