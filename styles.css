@@ -105,7 +105,6 @@ body {
     width: 50%;
     height: 1400px;
     color: white;
-    background-color: grey;
     background-color: rgb(23, 23, 31);
     border: 2px solid rgb(46, 44, 74);
 }
@@ -201,9 +200,15 @@ button:hover {
 }
 
 .transactionList {
-    max-height: 300px;
+    position: absolute;
+    padding: 20px;
+    max-height: 100px;
     overflow-y: auto;
+    top: 20px;
     color: white;
+    margin-left: 700px;
+    background-color: rgb(23, 23, 31);
+    border: 2px solid rgb(46, 44, 74);
 }
 
 .transactionItem {
