@@ -102,7 +102,7 @@ body {
     top: 30px;
     left: 250px; 
     padding: 20px;
-    width: 720px;
+    width: 50%;
     height: 1400px;
     color: white;
     background-color: grey;
@@ -116,4 +116,15 @@ body {
 
 .mainDivVersions p{
     font-size: 10px;
+}
+
+.mainDivDashboard{
+    position: absolute;
+    border: 2px solid rgb(23, 23, 31);
+    color: rgb(191, 190, 190);
+    top: 80px;
+    left: 300px;
+
+    width: 30%;
+    height: 300px;
 }
