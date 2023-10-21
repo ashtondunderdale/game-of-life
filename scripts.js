@@ -1,44 +1,73 @@
+google.charts.load('current', { 'packages': ['bar'] });
+google.charts.setOnLoadCallback(drawCharts);
 
-google.charts.load('current', {'packages':['bar']});
-google.charts.setOnLoadCallback(drawChart);
+function drawCharts() {
+    // Data for the income chart
+    var incomeData = google.visualization.arrayToDataTable([
+        ['', ''],
+        ['July', 1000],
+        ['August', 1170],
+        ['September', 660],
+        ['October', 1030]
+    ]);
 
-function drawChart() {
-var data = google.visualization.arrayToDataTable([
-    ['Year', 'Income'],
-    ['July', 1000],
-    ['August', 1170],
-    ['September', 660],
-    ['October', 1030]
-]);
-
-var options = {
-
-    chart: {
-    title: 'Income Overview',
-    subtitle: 'July 2023 - October 2023',
-    },
-
-    backgroundColor: '#17171f',
-
-    chartArea: {
-    backgroundColor: '#17171f',
-    },
-
-    series: {
-    0: {
-        color: '#5a5ac4',
-    },
-    },
-
-    bar: { groupWidth: "20%" },
-    legend: { position: "none" },
-    vAxis: {
-    gridlines: {
-        color: '#333', 
+    var incomeOptions = {
+        chart: {
+            title: 'Income',
+            subtitle: 'Past 4 Months',
         },
-    },
-};
+        backgroundColor: '#17171f',
+        chartArea: {
+            backgroundColor: '#17171f',
+        },
+        series: {
+            0: {
+                color: '#4ceda5',
+            },
+        },
+        bar: { groupWidth: "20%" },
+        legend: { position: "none" },
+        vAxis: {
+            gridlines: {
+                color: '#333',
+            },
+        },
+    };
 
-var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
-chart.draw(data, google.charts.Bar.convertOptions(options));
+    var expenseData = google.visualization.arrayToDataTable([
+        ['', ''],
+        ['July', 211],
+        ['August', 440],
+        ['September', 120],
+        ['October', 394]
+    ]);
+
+    var expenseOptions = {
+        chart: {
+            title: 'Expenses',
+            subtitle: 'Past 4 Months',
+        },
+        backgroundColor: '#17171f',
+        chartArea: {
+            backgroundColor: '#17171f',
+        },
+        series: {
+            0: {
+                color: '#eb5e5e', 
+            },
+        },
+        bar: { groupWidth: "20%" },
+        legend: { position: "none" },
+        vAxis: {
+            gridlines: {
+                color: '#333',
+            },
+        },
+    };
+
+    var incomeChart = new google.charts.Bar(document.getElementById('incomeChart'));
+    incomeChart.draw(incomeData, google.charts.Bar.convertOptions(incomeOptions));
+
+    var expenseChart = new google.charts.Bar(document.getElementById('expenseChart'));
+    expenseChart.draw(expenseData, google.charts.Bar.convertOptions(expenseOptions));
 }
