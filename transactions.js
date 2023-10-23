@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (type === 'expense') {
                 transactionItem.style.color = '#eb5e5e';
             }
+
+            if (transactionList.childElementCount > 0) {
+                transactionMessage.textContent = '';
+            }
             
             transactionAmount.value = '';
             transactionReference.value = '';
