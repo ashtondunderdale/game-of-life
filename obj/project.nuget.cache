@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "STAwEKJBSKbgWgIjo64IG1cxRyhrrCkUfP3V+FCw0WV3S+243KsohWCbvGW/OVOu8xt7OdNUCTWA+1jcg64ZrA==",
+  "dgSpecHash": "DISGp9RJWv2n07e+9ajzAfbJ+gJYToPWCnXWmL6GOIjFUtlEC13/WTFZ+KkbbVEe5QiSkfrEdIIpCr9DZ41fYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adunderdale\\Projects\\GitHub\\cat\\cat\\cat\\cat.csproj",
+  "projectFilePath": "C:\\Users\\adunderdale\\Projects\\GitHub\\cat\\cat\\cat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adunderdale\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
     "C:\\Users\\adunderdale\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",

@@ -1,0 +1,14 @@
+C:\Users\adunderdale\Projects\GitHub\cat\cat\bin\Debug\net6.0\cat.exe
+C:\Users\adunderdale\Projects\GitHub\cat\cat\bin\Debug\net6.0\cat.deps.json
+C:\Users\adunderdale\Projects\GitHub\cat\cat\bin\Debug\net6.0\cat.runtimeconfig.json
+C:\Users\adunderdale\Projects\GitHub\cat\cat\bin\Debug\net6.0\cat.dll
+C:\Users\adunderdale\Projects\GitHub\cat\cat\bin\Debug\net6.0\cat.pdb
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\cat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\cat.AssemblyInfoInputs.cache
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\cat.AssemblyInfo.cs
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\cat.csproj.CoreCompileInputs.cache
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\cat.dll
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\refint\cat.dll
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\cat.pdb
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\cat.genruntimeconfig.cache
+C:\Users\adunderdale\Projects\GitHub\cat\cat\obj\Debug\net6.0\ref\cat.dll
