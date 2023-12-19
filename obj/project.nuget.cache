@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DISGp9RJWv2n07e+9ajzAfbJ+gJYToPWCnXWmL6GOIjFUtlEC13/WTFZ+KkbbVEe5QiSkfrEdIIpCr9DZ41fYA==",
+  "dgSpecHash": "gsiFoBZbRxyly1zz5PHkjrGi3wcJR2WoBh4wGkYx9ZFpckwIb/TNyYyiGDVYTDr1JJ3Pd6jrJqOT8iqjcLurMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adunderdale\\Projects\\GitHub\\cat\\cat\\cat.csproj",
+  "projectFilePath": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\gameOfLife.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adunderdale\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
     "C:\\Users\\adunderdale\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",

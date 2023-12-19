@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adunderdale\\Projects\\GitHub\\cat\\cat\\cat.csproj",
-      "projectName": "cat",
-      "projectPath": "C:\\Users\\adunderdale\\Projects\\GitHub\\cat\\cat\\cat.csproj",
+      "projectUniqueName": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\gameOfLife.csproj",
+      "projectName": "gameOfLife",
+      "projectPath": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\gameOfLife.csproj",
       "packagesPath": "C:\\Users\\adunderdale\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adunderdale\\Projects\\GitHub\\cat\\cat\\obj\\",
+      "outputPath": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

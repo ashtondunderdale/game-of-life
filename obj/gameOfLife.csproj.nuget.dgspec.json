@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adunderdale\\Source\\Repos\\cat\\cat.csproj": {}
+    "C:\\Users\\adunderdale\\Source\\Repos\\cat\\gameOfLife.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adunderdale\\Source\\Repos\\cat\\cat.csproj": {
+    "C:\\Users\\adunderdale\\Source\\Repos\\cat\\gameOfLife.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\cat.csproj",
-        "projectName": "cat",
-        "projectPath": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\cat.csproj",
+        "projectUniqueName": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\gameOfLife.csproj",
+        "projectName": "gameOfLife",
+        "projectPath": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\gameOfLife.csproj",
         "packagesPath": "C:\\Users\\adunderdale\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\adunderdale\\Source\\Repos\\cat\\obj\\",
         "projectStyle": "PackageReference",
